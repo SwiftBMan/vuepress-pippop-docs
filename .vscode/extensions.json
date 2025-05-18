@@ -1,0 +1,19 @@
+{
+    // 开发时建议只在工作区生效
+    "recommendations": [
+        // 通用插件
+        "yzhang.markdown-all-in-one", // markdown 增强插件
+        "codeinchinese.englishchinesedictionary", // 英文单词翻译
+        "ms-ceintl.vscode-language-pack-zh-hans", // 中文语言包
+        "adpyke.codesnap", // 代码截图
+        "davidanson.vscode-markdownlint", // markdown 语法检查
+        "marscode.marscode-extension", // AI 代码助手
+        "alibaba-cloud.tongyi-lingma", // AI 代码助手
+        "ryanolsonx.solarized", // 主题 solarized
+        "vscode-icons-team.vscode-icons", // 文件图标主题
+        "syler.ignore", // gitignore 管理
+        // 个性化插件
+        "ms-vscode.vscode-typescript-next", // javascript 和 typescript
+        
+    ]
+}

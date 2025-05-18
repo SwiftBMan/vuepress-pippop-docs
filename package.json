@@ -1,0 +1,22 @@
+{
+  "name": "vuepress-pippop-docs",
+  "description": "pippop文档，包括接口文档，帮助文档等",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "docs:build": "vuepress build docs",
+    "docs:clean-dev": "vuepress dev docs --clean-cache",
+    "docs:dev": "vuepress dev docs",
+    "docs:update-package": "npx vp-update",
+    "docs:deploy": "npm run docs:build && gh-pages -d docs/.vuepress/dist -b pippop-docs --repo https://github.com/SwiftBMan/SwiftBMan.github.io.git"
+  },
+  "devDependencies": {
+    "@vuepress/bundler-vite": "2.0.0-rc.20",
+    "@vuepress/theme-default": "2.0.0-rc.88",
+    "gh-pages": "^6.3.0",
+    "sass-embedded": "^1.86.0",
+    "vue": "^3.5.13",
+    "vuepress": "2.0.0-rc.20"
+  }
+}
