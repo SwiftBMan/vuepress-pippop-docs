@@ -1,6 +1,7 @@
 import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
 import { viteBundler } from '@vuepress/bundler-vite'
+import { iconPlugin } from '@vuepress/plugin-icon'
 
 export default defineUserConfig({
 
@@ -11,13 +12,19 @@ export default defineUserConfig({
     ['meta', { name: 'translate', content: 'no' }], // 禁用 Microsoft Edge 翻译
   ],
 
+  plugins: [
+    iconPlugin({ // https://ecosystem.vuejs.press/zh/plugins/features/icon.html
+      // 选项
+    }),
+  ],
+
   lang: 'zh-CN',
 
   title: 'PipPop 文档',
   description: 'PipPop 文档，包括开发文档、接口文档、帮助文档等',
-
+  
   theme: defaultTheme({
-
+    
     colorMode: 'light',
 
     colorModeSwitch: false,

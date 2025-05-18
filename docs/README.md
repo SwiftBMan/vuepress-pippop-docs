@@ -7,7 +7,7 @@ actions:
     link: /dev_docs/dev_doc_introduction
     type: primary
 
-  - text: VuePress 文档
+  - text: VuePress 文档 
     link: https://vuejs.press/guide/introduction.html
     type: secondary
 
