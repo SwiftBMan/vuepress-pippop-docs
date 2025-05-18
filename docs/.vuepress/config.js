@@ -15,8 +15,6 @@ export default defineUserConfig({
   }),
 
   base: '/vuepress-pippop-docs/',
-  //base: '/',
-
 
   bundler: viteBundler(),
 })
