@@ -4,7 +4,7 @@ title: 首页
 heroImage: /images/pippop-logo.png
 actions:
   - text: PipPop 开发文档
-    link: /dev_doc/dev_doc_home.html
+    link: /dev_docs/dev_doc_introduction
     type: primary
 
   - text: VuePress 文档

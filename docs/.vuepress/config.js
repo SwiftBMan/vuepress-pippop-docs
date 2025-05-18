@@ -33,7 +33,19 @@ export default defineUserConfig({
 
     logoAlt: 'PipPop 品牌 Logo',
 
-    navbar: ['/', '/dev_doc/dev_doc_home'],
+    navbar: [
+      '/',
+      {
+        text: '开发文档',
+        //link: '/',
+        prefix: '/dev_docs/',
+        children: [
+          'dev_doc_introduction',
+          'dev_doc_home'
+
+        ]
+      }
+    ],
     // 嵌套导航项
     // navbar: [
     //   { text: '我是首页', link: '/' },
@@ -65,7 +77,20 @@ export default defineUserConfig({
     //   { text: '指南', link: '/guide/', icon: 'book' }
     // ],
 
-    sidebar: undefined,
+    sidebar: {
+      '/dev_docs/': [
+        {
+          text: '开发文档',
+          prefix: '/dev_docs/',
+          children: [
+            'dev_doc_introduction',
+            'dev_doc_home',
+          ],
+        },
+      ]
+    },
+    prev: '上一页', // 自定义“上一页”文本
+    next: '下一页', // 自定义“下一页”文本
 
     editLink: true,
 
