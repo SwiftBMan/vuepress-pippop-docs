@@ -9,7 +9,7 @@ export default defineUserConfig({
   description: 'pippop 文档，包括开发文档，接口文档，帮助文档等',
 
   theme: defaultTheme({
-    logo: '/images/pippop-logo.jpg',
+    logo: '/images/pippop-logo.png',
 
     navbar: ['/', '/dev_doc/dev_doc_home'],
   }),
