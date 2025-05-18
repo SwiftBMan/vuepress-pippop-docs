@@ -14,7 +14,7 @@ export default defineUserConfig({
     navbar: ['/', '/dev_doc/dev_doc_home'],
   }),
 
-  base: '/pippop-docs-vuepress/',
+  base: '/vuepress-pippop-docs/',
   //base: '/',
 
 
