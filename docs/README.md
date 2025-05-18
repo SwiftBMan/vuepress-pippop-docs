@@ -15,7 +15,10 @@ features:
   - title: PipPop 开发文档
     details: 正在完善中......
 
+
 footer: MIT Licensed | Copyright © 2018-present VuePress Community
 ---
 
+## 团队成员
 
+![PipPop 番记体验版申请](/images/pippop-team-members.png)
