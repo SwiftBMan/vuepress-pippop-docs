@@ -13,7 +13,7 @@ actions:
 
 features:
   - title: pip 开发文档
-    details: 账号管理
+    details: 正在完善中......
 
 footer: MIT Licensed | Copyright © 2018-present VuePress Community
 ---

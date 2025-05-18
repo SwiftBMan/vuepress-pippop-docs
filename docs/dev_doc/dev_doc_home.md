@@ -26,7 +26,7 @@
 ### web/小程序 端
 
 - [测试环境-H5](https://www.pippop.net)
-- [小程序体验版](https://www.pippop.com.cn)
+- 小程序体验版
   
   ![PipPop 番记体验版申请](/images/mini-pippop-code-dev.jpg)
 
