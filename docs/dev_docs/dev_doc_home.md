@@ -32,9 +32,10 @@
 
 ### 接口地址
 
-- [测试环境-swagger](http://110.40.177.28:18091/swagger-ui.html)
-- [正式环境-apifox](https://w6tasqfcm2.apifox.cn) 访问密码：2dBwVA7j
+- [swagger 接口地址](https://api.pippop.com.cn/prod-api/doc.html)
+- [apifox 接口地址](https://w6tasqfcm2.apifox.cn) 访问密码：pippop
 
 ## PipPip 相关信息
 
+- [各小组项目跟进表](https://docs.qq.com/sheet/DYUVtdGFpSGd4c2h0)
 - [PP项目信息汇总](https://docs.qq.com/sheet/DRWNCempFVXZuTVpD?tab=BB08J2&_t=1747538807523&nlc=1)
